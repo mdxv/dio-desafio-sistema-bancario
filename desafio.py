@@ -118,7 +118,6 @@ def main():
   LIMITE_SAQUES = 3
   AGENCIA = "0001"
   
-  
   saldo = 0
   limite = 500
   extrato = ""
@@ -129,10 +128,7 @@ def main():
   banner_sistema()
 
   while True:
-
     opcao = menu()
-
-
     match (opcao):
       case "d":
         valor = float(input("\n[+] Informe o valor do depósito: R$"))
